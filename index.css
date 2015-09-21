@@ -1,0 +1,144 @@
+body{	
+}
+#bodyWrapper {
+	margin-left: 50px;
+	margin-right: 50px;
+	width: 900px;
+	background-color: yellow;
+	
+	
+}
+
+header{
+	border-style: solid;
+    font-size: 30px;
+	text-align: center;
+	width: 900px;
+	height: 100px;
+	color: blue;
+	background-image: url("Flag.png"); 
+	/*bilde of Flaget er lastet ned fra google.no*/                  
+}
+
+nav{
+	background-color: red;
+	position: relative; 
+	text-align: left;
+	width: 900px;
+	border-style: solid;
+	border-color: blue;
+	padding: 0px;
+	
+}
+nav ul{	
+	padding: 0px;
+	font-size: 20px;
+	font-weight: bold;
+	margin-left: 0px;
+	line-height: 0px;
+}
+nav ul li{
+	display: inline-block;
+	padding: 0px;
+	margin-left: 15px;
+    margin-right: 5px;	
+}
+
+nav ul li a:hover{
+	background-color: green;
+}
+
+nav ul.dropDown{
+	display: none;
+	position: absolute;
+	top: 50px;
+	z-index: 100;
+}
+nav ul li a{
+	text-decoration: none;
+	
+}
+nav ul.dropDown li{
+	display: block;
+	height: 30px;
+	margin-top: -20px;
+	background-color: green;
+	text-align: left;
+	margin-left: -0px;
+	font-size: 15px;
+	padding: 10px;
+	
+}
+nav ul li:hover ul.dropDown{
+	display: block;
+	background-color: green;
+}
+nav ul li:hover{
+	background-color: green;
+}
+	
+article{
+	color: blue;
+	width: 900px;
+	height: 600px;
+    background-color: yellow;
+    text-align: center;
+    border-style: solid; 	
+	border-color:blue;
+	border-bottom-style: solid;
+	border-right-style: solid;
+	
+}
+article p a{
+	text-decoration: none;
+}
+
+aside section{
+	width: 200px;
+	text-align: left;
+	float: left;
+	padding: 0px;
+	background-color: red;
+	height: 600px;
+	border-style: solid;
+	border-color:blue;
+}
+aside section ul{
+	text-align: left;
+	padding: 10px;
+}
+aside section ul li ul.dropDown{
+	display: none;
+    color: blue;	
+}
+aside ul li ul li:hover ul.dropDown {
+	display: block;
+	background-color: green;
+	
+}
+aside section ul a:hover{
+	background-color: green;
+}
+aside section ul li a{
+	text-decoration: none;
+	font-size: 20px;	
+}
+footer{
+	background-color: green;
+	text-align: center;
+	width: 900px;
+	height: 50px;
+	border-style: solid;
+	border-color:blue;
+	clear: both;
+	color: blue;
+}
+aside{
+	background-color: red;
+	display: block;
+	text-decoration: none;
+}
+aside section ul{
+	list-style-type: none;
+	
+}
